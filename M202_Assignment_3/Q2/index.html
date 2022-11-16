@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="header">
+            <h2 class="head1">Registration Form</h2>
+            </div>
+            <div class="container">
+                
+                <form action="">
+                    <label for="name">Name : </label>
+                    <input type="text" name="name" id="name" placeholder="Name" required/><br>
+                    <label for="address">Address : </label>
+                    <textarea cols="10" rows="3" id="address" name="address" placeholder="Address"></textarea><br>
+                    <label for="email">Email : </label>
+                    <input type="email" name="email" id="email" placeholder="Email" required/><br>
+                    <label for="mobile">Mobile : </label>
+                    <input type="text" name="mobile" id="mobile" placeholder="Mobile" required/><br>
+                    <label for="gender">Gender : </label>
+                    <input type="radio" name="gender" id="male"/> Male
+                    <input type="radio" name="gender" id="female"/> Female<br>
+                    <label for="course">Course : </label>
+                    <select id="course" name="course">
+                        <option value="BCA">BCA</option>
+                        <option value="BBA">BBA</option>
+                        <option value="MCA">MCA</option>
+                    </select><br>
+                    <label for="choice">Choice : </label>
+                    <input type="checkbox" name="play" id="play" />Play
+                    <input type="checkbox" name="run" id="run" />Run
+                    <input type="checkbox" name="read" id="read" />Read
+                    <br><br>
+                    <input type="submit" name="btn" id="btn" value="Submit" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+.container{
+    margin: 50px;
+	background-color : #ffffe5;
+}
+.left{
+    text-align: right;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+.checked {
+    color: green;
+}
+.usd{
+    color: orange;
+    font-weight: bold;
+}
+.label{
+    font-weight: bold;
+}
+.btnAddToCart{
+    margin-left: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items : flex-start ;
+}
+.right div{
+    margin : 5px;
+}

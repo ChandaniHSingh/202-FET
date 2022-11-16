@@ -1,0 +1,113 @@
+.body{
+    margin : 0px;
+    padding : 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-fluid{
+    margin : 0px 50px;
+}
+.header{
+    overflow: auto;
+    color: #35353c;
+    margin-bottom : -10px;
+}
+.head1{
+    float : left;
+}
+.head2{
+    float : right;
+}
+.container{
+    display : grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 25% 25%;
+    grid-gap:10px 10px;
+    height: 400px;
+}
+.item{
+    color:#fff;
+    font-size:30px;
+    padding : 10px;
+    position: relative;
+    
+	display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.item p{
+	/*
+    position : relative;
+    top : 60%;
+	*/
+    margin: 0px;
+}
+.item .p1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item .p2{
+    font-size: 13px;
+    font-weight: bold;
+}
+.item .p3{
+    font-size: 13px;
+    font-weight: thin;
+}
+.item .p4{
+    font-size : 12px;
+}
+.item1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/1.jpg");
+    background-position: center;
+    background-size: auto;
+    transform: all;
+    
+    grid-area: 1/1/3/2;
+}
+.item1:hover{
+    background: url("../img/1.jpg");
+}
+.item2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/2.jpg);
+    background-position: center;
+    background-size: auto;
+    transform: all;
+}
+.item2:hover{
+    background: url("../img/2.jpg");
+    background-position: center;
+    background-size: auto;
+}
+.item3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/3.jpg);
+    background-position: center;
+    background-size: auto;
+    transform: all;
+}
+.item3:hover{
+    background: url("../img/3.jpg");
+    background-position: center;
+    background-size: auto;
+}
+.item4{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/4.jpg);
+    background-position: center;
+    background-size: auto;
+    transform: all;
+}
+.item4:hover{
+    background: url("../img/4.jpg");
+    background-position: center;
+    background-size: auto;
+}
+.item5{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/5.jpg);
+    background-position: center;
+    background-size: auto;
+    transform: all;
+}
+.item5:hover{
+    background: url("../img/5.jpg");
+    background-position: center;
+    background-size: auto;
+}

@@ -1,0 +1,13 @@
+.row h1,h3{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-label{
+    margin: 0px;
+    padding: 0px;
+}
+.form-control{
+   margin: 0px;
+   padding: 0px;
+}

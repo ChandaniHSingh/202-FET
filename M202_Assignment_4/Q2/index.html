@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Movies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/bootstrap-5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container center">
+        <div class="row">
+            <h1>My Favorite Movies</h1>
+            <h3>(Using JQuery)</h3>
+        </div>
+        <div>
+            <form action="#" class="form-inline">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3">
+                                <label for="title" class="form-label">Title : </label>
+                            </div>
+                            <div class="col-md-9 col-sm-9">
+                                <input type="text" name="title" id="title" placeholder="Movie Title" class="form-control" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-12">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3">
+                                <label for="rating" class="form-label">Rating : </label>
+                            </div>
+                            <div class="col-md-9 col-sm-9">
+                                <input type="number" name="rating" id="rating" placeholder="Rate the movie from 0 to 10" class="form-control"  min="1" max="10" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-12">
+                        <button type="button" name="btnAdd" id="btnAdd" class="btn btn-light">Add Movie</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br>
+        <div>
+            <table class="table table-hover table-light table-responsive" style="text-align: center;">
+                <thead style="font-weight: 500;">
+                    <td style="width:70%">Title</td>
+                    <td style="width:15%">Rating</td>
+                    <td style="width:15%">Delete</td>
+                </thead>
+                <tbody id="tablebody">
+                    <tr id="tr0">
+                        <td >Hello</td>
+                        <td>5</td>
+                        <td><button type="submit" class="btn btn-danger" onClick="onDelete(tr0)">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="vendor/jquery-3.6.0/jquery.js"></script>
+    <script src="vendor/bootstrap-5.1.3/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

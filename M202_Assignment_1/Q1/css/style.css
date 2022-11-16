@@ -1,0 +1,74 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    background-color: aliceblue;
+    margin:0px;
+    padding: 0px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    padding-bottom :15px;
+}
+.nav{
+    background-color: #fff;
+    border-bottom: 2px solid gray;
+    height : 50px;
+}
+.nav #nav-left{
+    padding: 0px;
+    position: fixed;
+    left : 15%;
+}
+.nav #nav-left a{
+    margin: 5px;
+}
+.nav #nav-left .active{
+    color:blue;
+    border-bottom: 5px solid blue;
+}
+.nav #nav-right{
+    position:  fixed;
+    right : 15%;
+}
+.box{
+    margin: 10px 15%;
+    border: 2px solid gray;
+    /*box-shadow: 2px 2px 10px gray;*/
+}
+.box-header{
+    background-color: #fff;
+    padding: 10px 100px;
+}
+.input{
+    width : 50%;
+    margin: 5px;
+    /*height: 20px;*/
+    border:2px solid gray;
+    border-radius: 5px;
+    padding : 10px;
+}
+.input:hover{
+    background-color: aliceblue;
+}
+#btnLogin{
+    background-color: blue;
+    color : #fff;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border : none;
+}
+.btn-chk{
+    display :flex;
+    gap : 10px;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.box-footer{
+    background-color:azure;
+    padding: 10px 100px;
+}

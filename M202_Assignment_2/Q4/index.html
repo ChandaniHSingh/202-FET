@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [21,22,3,41,5,6,17,9,10];
+        let min=max=arr[0];
+        let sum=0,avg;
+        let n=arr.length;
+        for(let i=0;i<n;i++){
+            if(min > arr[i]){
+                min = arr[i];
+            }
+            if(max < arr[i]){
+                max = arr[i];
+            }
+            sum += arr[i];
+        }
+        avg = sum / n;
+        console.log("Minimum : ",min);
+        console.log("Maximum : ",max);
+        console.log("Average : ",parseFloat(avg).toFixed(2));
+    </script>
+</body>
+</html>

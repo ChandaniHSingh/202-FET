@@ -1,0 +1,86 @@
+body{
+    background-color: aliceblue;
+    margin:0px;
+    padding: 0px;
+    border-left: 2px solid black;
+}
+.upper{
+    padding:30px 50px 40px 50px;
+    background-color: rgb(240, 234, 234);
+    overflow: auto;
+}
+.upperleft{
+    width: 50%;
+    float : left;
+}
+.upperleft .list .item{
+    margin : 10px;
+}
+.upperleft .list .item  i{
+    color : red;
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+}
+.upperright{
+    float : right;
+}
+.floatdiv{
+    border : 1px solid gray;
+    padding : 20px;
+    margin : 30px;
+    box-shadow: 5px 5px 5px gray;
+    position : fixed;
+    right : 20px;
+    top : 20px;
+    width : 40%;
+    background-color:  rgb(240, 234, 234);
+}
+.floatdiv form .formitem{
+    width : 95%;
+    margin : 5px;
+    padding : 10px;
+    border : 1px solid gray;
+}
+.floatdiv form textarea{
+}
+.floatdiv form #btn{
+    width : 97%;
+    background-color: red;
+}
+.lower{
+    padding : 100px 50px 0px 50px;
+    background-color: red;
+    color : white;
+    height : 180px;
+}
+.lowerleft{
+    width: 30%;
+    position : absolute;
+    top : 400px;
+}
+.lowercenter{
+    width: 30%;
+    position : absolute;
+    top : 400px;
+    left : 35%;
+}
+.lowerright{
+    width: 30%;
+    position : absolute;
+    top : 400px;
+    left : 70%;
+}
+.lowerright i{
+    color : white;
+    font-size: 30px;
+    border:  1px solid white;
+    padding:  5px;
+    margin: 25px 5px 0px 5px;
+}
+.footer{
+    margin-top: -17px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}

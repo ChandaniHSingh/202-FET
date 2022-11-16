@@ -1,0 +1,17 @@
+.row h1{
+    background-color: cornflowerblue;
+    color:crimson;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.row h2{
+    
+    text-align: center;
+}
+ul li{
+    font-size: large;
+}
+.rowline{
+    border-top: 1px solid gray;
+    padding-top: 5px;
+}
